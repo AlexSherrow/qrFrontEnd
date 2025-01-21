@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       // string shorthand
-      '/api': 'http://localhost:8080/',
+      '/api': 'https://qrbackend-13d260ac2b78.herokuapp.com/',
     }
   }
 })
